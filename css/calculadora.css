@@ -1,0 +1,67 @@
+.visor{
+    background-color:black;
+    color:rgba(255, 235, 205, 0.123);
+    height: 100px;
+
+}
+
+.superior{
+    background-color:black;
+}
+
+.esquerda {
+    width: 75%;
+    float:left;
+}
+
+.numeros{ 
+    background-color:black;
+}
+
+.direita{
+    background-color:black;
+    width: 25%;
+    display: inline-block;
+}
+.principal{
+    width: 400px;
+    margin: 0 auto;
+}
+
+button{
+    width: 95px;
+    height: 95px;
+    font-size:50px;
+    border-radius: 47.5px;
+    border: black;
+    border-width:5px;
+    
+    }
+
+input{
+    width:100%;
+    height:100%;
+    background-color: black;
+    font-size:50px;
+    color: blanchedalmond;
+    text-align: right;
+    border: black;
+    }
+.superior button{
+    background-color:#a6a6a6;
+
+
+}
+.numeros button{
+    background-color:#333333 ;
+    color:white;
+
+}
+.direita button{
+    background-color:#ff9f0a;
+    color:white;
+}
+#zero{
+   width:190px;
+   text-align: left;
+}

@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            My Calculator
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/calculadora.js"></script>
+         <link href="css/calculadora.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="principaL">
+           <div class="visor">
+               <input type="text" name="visor" id="visor" readonly="readonly">
+
+           </div>
+           <div class="esquerda">
+               <div class="superior">
+                   <button onclick="ACapaga()">AC</button>
+                   <button onclick="inverter()">+/-</button>
+                   <button onclick="esponemciacao()">x&#x00B2;</button>
+
+               </div>
+               <div class="numeros">
+                   <button onclick="prencherValor(7)">7</button>
+                   <button onclick="prencherValor(8)">8</button>
+                   <button onclick="prencherValor(9)">9</button>
+                   <button onclick="prencherValor(4)">4</button>
+                   <button onclick="prencherValor(5)">5</button>
+                   <button onclick="prencherValor(6)">6</button>
+                   <button onclick="prencherValor(1)">1</button>
+                   <button onclick="prencherValor(2)">2</button>
+                   <button onclick="prencherValor(3)">3</button>
+                   <button id = "zero" onclick="prencherValor(0)">0</button>
+                   <button onclick="prencherValor('.')">,</button>
+
+
+               </div>
+           </div>
+           <div class="direita">
+            <button onclick="digitaroperacao('/')">&divide;</button>
+            <button onclick="digitaroperacao('*')">X</button>
+            <button onclick="digitaroperacao('-')">-</button>
+            <button onclick="digitaroperacao('+')">+</button>
+            <button onclick="resultado()">=</button>
+           </div>
+        </div>
+    </body>
+</html>
